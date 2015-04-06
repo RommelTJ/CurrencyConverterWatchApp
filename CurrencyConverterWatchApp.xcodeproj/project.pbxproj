@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		774E39F21AD1ED3D00B6AB08 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E39F11AD1ED3D00B6AB08 /* DetailInterfaceController.swift */; };
 		77B13AE31ACBBCE8009D2B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B13AE21ACBBCE8009D2B4B /* AppDelegate.swift */; };
 		77B13AE51ACBBCE8009D2B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B13AE41ACBBCE8009D2B4B /* ViewController.swift */; };
 		77B13AE81ACBBCE8009D2B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B13AE61ACBBCE8009D2B4B /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		774E39F11AD1ED3D00B6AB08 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 		77B13ADD1ACBBCE8009D2B4B /* CurrencyConverterWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverterWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B13AE11ACBBCE8009D2B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B13AE21ACBBCE8009D2B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				77B13B0B1ACBBCF5009D2B4B /* InterfaceController.swift */,
+				774E39F11AD1ED3D00B6AB08 /* DetailInterfaceController.swift */,
 				77B13B0D1ACBBCF5009D2B4B /* NotificationController.swift */,
 				77B13B0F1ACBBCF5009D2B4B /* Images.xcassets */,
 				77B13B081ACBBCF5009D2B4B /* Supporting Files */,
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				774E39F21AD1ED3D00B6AB08 /* DetailInterfaceController.swift in Sources */,
 				77B13B0E1ACBBCF5009D2B4B /* NotificationController.swift in Sources */,
 				77B13B0C1ACBBCF5009D2B4B /* InterfaceController.swift in Sources */,
 			);
@@ -643,6 +647,7 @@
 				77B13AFE1ACBBCE8009D2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B13AFF1ACBBCE8009D2B4B /* Build configuration list for PBXNativeTarget "CurrencyConverterWatchAppTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +656,7 @@
 				77B13B011ACBBCE8009D2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B13B221ACBBCF5009D2B4B /* Build configuration list for PBXNativeTarget "CurrencyConverterWatchApp WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +665,7 @@
 				77B13B241ACBBCF5009D2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77B13B251ACBBCF5009D2B4B /* Build configuration list for PBXNativeTarget "CurrencyConverterWatchApp WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +674,7 @@
 				77B13B271ACBBCF5009D2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

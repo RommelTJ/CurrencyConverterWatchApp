@@ -14,7 +14,11 @@
                         <label width="1" alignment="center" verticalAlignment="center" text="MXN" textAlignment="center" id="aXC-pg-alY">
                             <fontDescription key="font" type="system" pointSize="24"/>
                         </label>
-                        <slider width="1" alignment="left" verticalAlignment="bottom" maximum="3" steps="3" id="TNo-7N-fPK"/>
+                        <slider width="1" alignment="left" verticalAlignment="bottom" maximum="3" steps="3" id="TNo-7N-fPK">
+                            <connections>
+                                <action selector="changeCurrencySlider:" destination="AgC-eL-Hgc" id="BNQ-ny-n9K"/>
+                            </connections>
+                        </slider>
                     </items>
                     <connections>
                         <outlet property="currencyLabel" destination="aXC-pg-alY" id="CBl-vh-Juk"/>
@@ -24,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--detailInterface-->
         <scene sceneID="Lda-WU-ldU">
             <objects>
-                <controller id="1z2-OS-E0l">
+                <controller identifier="detailInterface" id="1z2-OS-E0l" customClass="DetailInterfaceController" customModule="CurrencyConverterWatchApp_WatchKit_Extension">
                     <items>
                         <label width="1" alignment="left" text="1 USD = " textAlignment="center" id="gVB-YC-kpj"/>
                         <label width="1" alignment="left" text="14.50" textAlignment="center" id="9Ws-i0-gkA">
@@ -36,8 +40,18 @@
                         <label width="1" alignment="left" verticalAlignment="center" text="MXN" textAlignment="center" id="afI-uZ-eLQ">
                             <fontDescription key="font" type="system" pointSize="24"/>
                         </label>
-                        <slider width="1" alignment="left" verticalAlignment="bottom" value="1" maximum="20" steps="20" id="P8a-Ja-gBQ"/>
+                        <slider width="1" alignment="left" verticalAlignment="bottom" value="1" maximum="20" steps="20" id="P8a-Ja-gBQ">
+                            <connections>
+                                <action selector="doChangeDollarAmount:" destination="1z2-OS-E0l" id="7Mj-r9-BkC"/>
+                            </connections>
+                        </slider>
                     </items>
+                    <connections>
+                        <outlet property="amountSlider" destination="P8a-Ja-gBQ" id="U6x-iM-eKz"/>
+                        <outlet property="convertedAmountLabel" destination="9Ws-i0-gkA" id="c0d-xY-ONi"/>
+                        <outlet property="currencyLabel" destination="afI-uZ-eLQ" id="GiS-CW-IHD"/>
+                        <outlet property="dollarAmountLabel" destination="gVB-YC-kpj" id="b6g-zW-Amf"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="427" y="345"/>
